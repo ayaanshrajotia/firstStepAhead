@@ -1,5 +1,6 @@
 import React from "react";
 import "./CourseCard.css";
+import { NavLink } from "react-router-dom";
 
 const CourseCard = (props) => {
   return (
@@ -9,7 +10,8 @@ const CourseCard = (props) => {
         <h1>{props.courseName}</h1>
         <p>{props.courseDesc}</p>
 
-        <button className="course-card__button">See more...</button>
+        
+        <NavLink to={props.courseLink}><button className="course-card__button">See more...</button></NavLink>
         {/* <div className="course-card__progress">
           <div className="progress-bar"></div>
           <p className="course-cardProgress">0% Complete</p>
