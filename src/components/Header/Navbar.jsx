@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="navigation-bar">
         <img
           className="w-12 h-10"
-          src="./images/FSA_Logo.png"
+          src="https://www.firststepahead.in/images/FSA_Logo.png"
           alt="navbar-logo"
         />
 

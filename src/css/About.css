@@ -1,9 +1,8 @@
 .about{
     display: flex;
     flex-direction: column;
-    padding: 8rem 7%;
+    padding: 6rem 7%;
     line-height: 1.5;
-    font-family: 'Work Sans', sans-serif;
     background-color: #f2f2f2;
 }
 
@@ -14,9 +13,13 @@
 }
 
 .about h1{
-    font-size: 2.4375rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 600;
     margin: 1rem 0;
+}
+
+.about p {
+    line-height: 1.8;
 }
 
 .about__content{
@@ -39,6 +42,8 @@
 .about__content-container img{
     max-width: 500px;
     max-height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .about__content-container p{

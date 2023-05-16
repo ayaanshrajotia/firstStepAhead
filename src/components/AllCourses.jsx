@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./Header/Header";
-import "../css/CoursesNew.css";
+import "../css/AllCourses.css";
 // import Courses from "./Courses";
-import CourseCard from "./Courses/CourseCard";
 import Footer from "./Footer/Footer";
+import CourseCard2 from "./CourseCards/CourseCard2";
 
 const CoursesNew = () => {
     return (
@@ -34,21 +34,44 @@ const CoursesNew = () => {
                     </div>
                 </div>
 
-                <div className="courses__courses-category">
+                {/* <div className="courses__courses-category">
                     <CourseCard
                         courseName="IT Training"
                         courseDesc="Lorem ipsum dolor sit amet consectetur."
-                        courseLink ="/itraining"
+                        courseLink="/courses/ittraining"
                     />
                     <CourseCard
                         courseName="Mock Interview"
                         courseDesc="Lorem ipsum dolor sit amet consectetur."
-                        courseLink ="/mockinterview"
+                        courseLink="/courses/mockinterview"
                     />
                     <CourseCard
                         courseName="Campus Training"
                         courseDesc="Lorem ipsum dolor sit amet consectetur."
-                        courseLink ="/campustraining"
+                        courseLink="/courses/campustraining"
+                    />
+                </div> */}
+                <div className="courses__cards">
+                    <CourseCard2
+                        title="IT Training"
+                        desc="Lorem ipsum dolor sit amet consectetur.ur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna "
+                        link={"/courses/ittraining"}
+                    />
+                    <CourseCard2
+                        title="Mock Interview"
+                        desc="Lorem ipsum dolor sit amet consectetur.ur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna "
+                        link={"/courses/mockinterview"}
+                    />
+                    <CourseCard2
+                        title="Campus Training"
+                        desc="Lorem ipsum dolor sit amet consectetur.ur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna "
+                        link={"/courses/campustraining"}
                     />
                 </div>
 
