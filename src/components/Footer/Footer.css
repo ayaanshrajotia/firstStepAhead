@@ -73,3 +73,42 @@
     padding: 30px 8rem;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1050px) {
+    .header__container {
+        padding: 4rem 3rem;
+        gap: 1rem !important;
+    }
+
+    .home__tech-section {
+        padding: 3rem 3rem 0rem 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home__footer--top {
+        padding: 2rem 1.5rem 0rem 1.5rem;
+
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home__footer--top--social img {
+        width: 50%;
+    }
+
+    .home__footer--top--social {
+        padding: 20px 0px;
+        align-items: center;
+    }
+
+    .home__footer--top--contact {
+        padding: 20px 0px;
+    }
+
+    .home__footer--bottom > div {
+        padding: 2rem 1.5rem 2rem 1.5rem;
+
+    }
+}

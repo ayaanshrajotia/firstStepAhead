@@ -61,15 +61,22 @@ const Home = () => {
                     </div>
                     <div className="home__tech-section--right">
                         <div className="home__tech-section--right--icons">
-                            <IoLogoHtml5 />
-                            <IoLogoCss3 />
-                            <IoLogoJavascript />
-                            <IoLogoNodejs />
-
-                            <IoLogoPython />
-                            <IoLogoAngular />
-                            <FaReact />
-                            <FaVuejs />
+                            <div className="icons">
+                                <IoLogoHtml5 />
+                                <IoLogoCss3 />
+                            </div>
+                            <div className="icons">
+                                <IoLogoJavascript />
+                                <IoLogoNodejs />
+                            </div>
+                            <div className="icons">
+                                <IoLogoPython />
+                                <IoLogoAngular />
+                            </div>
+                            <div className="icons">
+                                <FaReact />
+                                <FaVuejs />
+                            </div>
                         </div>
                     </div>
                 </section>

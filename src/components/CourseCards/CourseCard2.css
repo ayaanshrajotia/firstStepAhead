@@ -9,7 +9,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 450px;
 }
 
 .course2-card:hover {
@@ -39,7 +38,7 @@
     font-size: 1.05rem;
     line-height: 1.4;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }

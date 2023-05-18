@@ -13,24 +13,6 @@
     gap: 2.5rem;
 }
 
-.header__container {
-    padding: 4rem 8rem;
-    width: 70%;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    color: white;
-}
-
-.header__container h1 {
-    font-size: 4.5rem;
-    letter-spacing: 0.05em;
-}
-
-.header__container p {
-    font-size: 1.3rem;
-}
 
 .courses-popular {
     display: flex;

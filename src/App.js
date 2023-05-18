@@ -14,7 +14,7 @@ import "./App.css";
 import CampusTraining from "./components/Courses/CampusTraining";
 import MockInterview from "./components/Courses/MockInterview";
 import ITTraining from "./components/Courses/ITTraining";
-import JavaCourse from "./components/Courses/JavaCourse";
+import InternalCourse from "./components/Courses/InternalCourses/InternalCourse";
 
 function App() {
     return (
@@ -45,8 +45,8 @@ function App() {
                         <Route exact path="/contact" element={<Contact />} />
                         <Route
                             exact
-                            path="/courses/java-course"
-                            element={<JavaCourse />}
+                            path="/courses/ittraining/:course"
+                            element={<InternalCourse />}
                         />
                     </Routes>
                 </div>

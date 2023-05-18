@@ -15,7 +15,11 @@ const ITTraining = () => {
             </Header>
             <div
                 className="ittraining"
-                style={{ display: "flex", flexWrap: "wrap" , padding: "4rem 8rem"}}
+                style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    padding: "4rem 8rem",
+                }}
             >
                 <CourseCard2
                     title={"Java "}
@@ -23,6 +27,7 @@ const ITTraining = () => {
                     image={
                         "https://blob.sololearn.com/assets/introduction-java-cover.png"
                     }
+                    link={"/courses/ittraining/java"}
                 />
                 <CourseCard2
                     title={"DSA "}
@@ -30,6 +35,7 @@ const ITTraining = () => {
                     image={
                         "https://blob.sololearn.com/assets/introduction-java-cover.png"
                     }
+                    link={"/courses/ittraining/dsa"}
                 />
                 <CourseCard2
                     title={"Full Stack Development"}
@@ -37,6 +43,8 @@ const ITTraining = () => {
                     image={
                         "https://blob.sololearn.com/assets/introduction-java-cover.png"
                     }
+                    link={"/courses/ittraining/full-stack-development"}
+
                 />
                 <CourseCard2
                     title={"Emerging Tech"}
@@ -44,6 +52,8 @@ const ITTraining = () => {
                     image={
                         "https://blob.sololearn.com/assets/introduction-java-cover.png"
                     }
+                    link={"/courses/ittraining/emerging-tech"}
+
                 />
                 <CourseCard2
                     title={"IT Training"}
@@ -51,6 +61,8 @@ const ITTraining = () => {
                     image={
                         "https://blob.sololearn.com/assets/introduction-java-cover.png"
                     }
+                    link={"/courses/ittraining/it-training"}
+
                 />
                 <CourseCard2
                     title={"C++"}
@@ -58,6 +70,8 @@ const ITTraining = () => {
                     image={
                         "https://blob.sololearn.com/assets/introduction-java-cover.png"
                     }
+                    link={"/courses/ittraining/cpp"}
+
                 />
             </div>
             {/* <div className="container">
