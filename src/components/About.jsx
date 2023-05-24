@@ -5,15 +5,20 @@ import 'aos/dist/aos.css'
 import Aos from "aos";
 
 export default function About() {
-
-    useEffect(()=>{
-        Aos.init({duration:1000});
-    },[])
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
     return (
         <>
-            <Header image="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/02/bg-01-free-img.jpg" >
-                <h1 className="About">About Us</h1>
-                <p className="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam eos ea fugit, temporibus quis repudiandae deserunt quam! Ratione, quia.</p>
+            <Header image="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/02/bg-01-free-img.jpg">
+                <div className="header__container">
+                    <h1>About Us</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsa aliquam eos ea fugit, temporibus quis repudiandae
+                        deserunt quam! Ratione, quia.
+                    </p>
+                </div>
             </Header>
             <div className="about">
                 <h3>TIME TO GROW YOURSELF</h3>
@@ -34,10 +39,18 @@ export default function About() {
                             colleges and has helped 17,000 plu students to get
                             offers from leading MNCs.
                         </p>
-                        <img src="./images/AboutHero1.png" alt="hero-about" data-aos="fade-left" />
+                        <img
+                            src="./images/AboutHero1.png"
+                            alt="hero-about"
+                            data-aos="fade-left"
+                        />
                     </div>
                     <div className="about__content-container">
-                        <img src="./images/AboutHero2.png" alt="hero-about" data-aos="fade-right"/>
+                        <img
+                            src="./images/AboutHero2.png"
+                            alt="hero-about"
+                            data-aos="fade-right"
+                        />
                         <p data-aos="fade-left">
                             First Step being the Talent Development Corporation
                             we have strengthened our offerings to prepare

@@ -13,36 +13,44 @@
     gap: 2.5rem;
 }
 
-
 .courses-popular {
     display: flex;
     padding: 4rem 8rem;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .courses-popular .courses-container {
-    display: flex;
     gap: 1rem;
     flex-direction: column;
     font-size: 1.2rem;
+    width: min-content;
 }
 
-.courses-popular .courses-container:first-child {
-    border-right: 2px solid #ff9635;
-    width: 50%;
-}
-
-.courses-container:last-child {
-    padding-left: 3rem;
-    align-items: center;
-}
 .courses-popular .courses-container h4 {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-.courses-popular .courses-container h1 {
+.courses__container .courses-line {
+    width: 2px;
+    background-color: #ff9635;
+    margin: 0 5rem;
+}
+
+.courses-popular .courses-container span:last-child {
     font-size: 2.5rem;
     font-weight: bold;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+.courses-popular .courses-container:last-child {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .courses__courses-category {
