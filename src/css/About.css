@@ -6,6 +6,12 @@
     background-color: #f2f2f2;
 }
 
+.About{
+    color: #fff;
+    font-size: 5rem;
+    padding: 2rem 5rem 0rem 10rem;
+}
+
 .about h3{
     font-size: 1.375rem;
     font-weight: 300;
@@ -37,6 +43,18 @@
     width: 100%;
     justify-content: space-between;
     gap: 5rem;
+}
+/* .about__content-container p{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 1rem;
+} */
+
+.about-desc{
+    color: #fff;
+    padding: 2rem 5rem 2rem 10rem;
+    font-size: 1.2rem;
+    width: 60%;
 }
 
 .about__content-container img{

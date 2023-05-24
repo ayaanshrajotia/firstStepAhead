@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/About.css";
 import Header from "./Header/Header";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import Aos from "aos";
 
 export default function About() {
+
+    useEffect(()=>{
+        Aos.init({duration:1000});
+    },[])
     return (
         <>
-            <Header image="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/02/bg-01-free-img.jpg" />
+            <Header image="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/02/bg-01-free-img.jpg" >
+                <h1 className="About">About Us</h1>
+                <p className="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam eos ea fugit, temporibus quis repudiandae deserunt quam! Ratione, quia.</p>
+            </Header>
             <div className="about">
                 <h3>TIME TO GROW YOURSELF</h3>
                 <h1>ABOUT FIRST STEP</h1>
 
                 <div className="about__content">
                     <div className="about__content-container">
-                        <p>
+                        <p data-aos="fade-right">
                             We are happy to present First Step as a leading
                             Campus Recruitment Training Institution in Bhopal,
                             focused in meeting the industry skill requirements
@@ -27,11 +37,11 @@ export default function About() {
                             colleges and has helped 17,000 plu students to get
                             offers from leading MNCs.
                         </p>
-                        <img src="./images/AboutHero1.png" alt="hero-about" />
+                        <img src="./images/AboutHero1.png" alt="hero-about" data-aos="fade-left" />
                     </div>
                     <div className="about__content-container">
-                        <img src="./images/AboutHero2.png" alt="hero-about" />
-                        <p>
+                        <img src="./images/AboutHero2.png" alt="hero-about" data-aos="fade-right"/>
+                        <p data-aos="fade-left">
                             First Step being the Talent Development Corporation
                             we have strengthened our offerings to prepare
                             students to be better equipped in their preferred
@@ -47,7 +57,7 @@ export default function About() {
                         </p>
                     </div>
                     <div className="about__content-offering">
-                        <p>
+                        <p data-aos="fade-right">
                             We are offering IT Training and Campus Recruitment
                             Training to help fresher to get dream jobs
                         </p>
