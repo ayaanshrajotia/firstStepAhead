@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "../css/About.css";
 import Header from "./Header/Header";
-import AOS from 'aos';
 import 'aos/dist/aos.css'
 import Aos from "aos";
 
@@ -18,8 +17,6 @@ export default function About() {
             </Header>
             <div className="about">
                 <h3>TIME TO GROW YOURSELF</h3>
-                <h1>ABOUT FIRST STEP</h1>
-
                 <div className="about__content">
                     <div className="about__content-container">
                         <p data-aos="fade-right">
