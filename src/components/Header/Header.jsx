@@ -10,6 +10,8 @@ const Header = (props) => {
         >
             <Navbar />
             {props.children}
+            
+
         </div>
     );
 };
