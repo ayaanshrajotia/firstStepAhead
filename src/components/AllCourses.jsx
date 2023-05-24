@@ -21,8 +21,9 @@ const CoursesNew = () => {
             <div className="courses__container">
                 <div className="courses-popular">
                     <div className="courses-container">
-                        <h4>Course Program</h4>
-                        <h1>Popular Courses</h1>
+                        <span>Course Program</span>
+                        <br />
+                        <span>Popular Courses</span>
                     </div>
                     <div className="courses-line"></div>
                     <div className="courses-container">
