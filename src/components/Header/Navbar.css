@@ -1,3 +1,4 @@
+
 .navigation-bar{
     display: flex;
     padding: 1rem 6rem;
@@ -19,6 +20,7 @@
     place-items: center;
 }
 
+
 .navbar-link{
     text-decoration: none;
     color: inherit;
@@ -29,6 +31,9 @@
     align-items: center;
     font-weight: 400;
     font-size: 1.1rem;
+}
+.navbar-link:hover{
+   color: #fff !important;
 }
 
 .navbar-link-active{
@@ -74,6 +79,12 @@
     color: white;
 }
 
+#dropdownMenu2{
+    /* background-color:transparent !important; */
+    color: #fff;
+    border: none !important;
+    
+}
 @media screen and (max-width: 1050px){
     .navbar-navigation{
         position: absolute;
